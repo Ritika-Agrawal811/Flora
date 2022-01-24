@@ -893,10 +893,10 @@ footer {
 
   .carousel-container {
     width: 1600px;
-    height: 65vh;
+    height: 70vh;
     display: flex;
     align-items: end;
-    padding-bottom: 0;
+    padding-bottom: 2.5em;
   }
 
   .carousel-item.active {
