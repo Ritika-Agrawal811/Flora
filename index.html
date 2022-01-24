@@ -25,32 +25,39 @@
     <title>Flora</title>
   </head>
   <body>
-    <header>
+    <div class="menu-btn hidden">Menu</div>
+    <div class="menu-list hidden">
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#shop"><i class="fas fa-shopping-basket"></i>Shop</a>
+      <a href="#about-us"><i class="fas fa-info"></i>About Us</a>
+      <a href="#contact-us"><i class="fas fa-envelope"></i>Contact Us</a>
+    </div>
+    <header id="home">
       <div class="header-img">
         <img src="images/header-plant.jpg" alt="A header image of a plant" />
       </div>
       <nav>
         <h1>Flora</h1>
         <div class="menu">
-          <a href="" class="nav-link"
+          <a href="#home" class="nav-link"
             >Home
             <i class="fas fa-seedling leaf-icon icon-left"></i>
             <i class="fas fa-seedling leaf-icon icon-right"></i>
           </a>
 
-          <a href="" class="nav-link"
+          <a href="#shop" class="nav-link"
             >Shop
             <i class="fas fa-seedling leaf-icon icon-left"></i>
             <i class="fas fa-seedling leaf-icon icon-right"></i>
           </a>
 
-          <a href="" class="nav-link"
+          <a href="#about-us" class="nav-link"
             >About Us
             <i class="fas fa-seedling leaf-icon icon-left"></i>
             <i class="fas fa-seedling leaf-icon icon-right"></i>
           </a>
 
-          <a href="" class="nav-link"
+          <a href="#contact-us" class="nav-link"
             >Contact Us
             <i class="fas fa-seedling leaf-icon icon-left"></i>
             <i class="fas fa-seedling leaf-icon icon-right"></i>
@@ -62,7 +69,7 @@
       </div>
     </header>
 
-    <section class="py-2">
+    <section class="py-2" id="shop">
       <h2 class="fw-500 text-center">Products</h2>
 
       <div class="flex-center my-2">
@@ -321,7 +328,7 @@
       </div>
     </section>
 
-    <section class="about-us-section">
+    <section class="about-us-section" id="about-us">
       <h2 class="about-us-title">Green Way</h2>
       <p class="about-us-description">
         Purchase Plants and flowers at minimal prices with guaranteed delivery
@@ -329,7 +336,7 @@
       </p>
     </section>
 
-    <section class="contact-us-section bg-gray">
+    <section class="contact-us-section bg-gray" id="contact-us">
       <div class="contact-details bg-celery flex-center">
         <div>
           <h2 class="fw-500 my-2 contact-us-title text-pink">Get in touch.</h2>

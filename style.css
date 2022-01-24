@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -33,7 +37,8 @@ h3,
 h4,
 h5,
 p,
-button {
+button,
+a {
   font-family: "Roboto", sans-serif;
 }
 
@@ -111,6 +116,61 @@ h3.text-tiny {
 
 .text-center {
   text-align: center;
+}
+
+/* menu button */
+
+.menu-btn {
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  width: 3.5em;
+  height: 3.5em;
+  background-color: #35572b;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 100ms linear;
+}
+
+.menu-list {
+  position: fixed;
+  right: 2em;
+  bottom: 6em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em 1em 1em;
+  background-color: #121212;
+  font-size: 1.15rem;
+  z-index: 10;
+  border-radius: 0.5em;
+}
+
+.menu-list a {
+  margin: 0.25em 0;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  display: flex;
+}
+
+.menu-list a:hover {
+  color: #fb8661;
+}
+
+.menu-list i {
+  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.hidden {
+  display: none;
 }
 
 /* header */
@@ -627,7 +687,7 @@ input[type="text"],
 input[type="email"] {
   background-color: transparent;
   border: none;
-  border-bottom: 1.5px solid #000;
+  border-bottom: 1px solid #000;
   margin: 1.5em 0;
   padding: 0.5em;
   outline: none;
@@ -974,6 +1034,10 @@ footer {
     font-size: 10px;
   }
 
+  .menu-btn {
+    display: none;
+  }
+
   /* header */
 
   header {
@@ -1019,7 +1083,7 @@ footer {
   }
 
   form {
-    width: 80%;
+    width: 90%;
   }
 
   input[type="text"],

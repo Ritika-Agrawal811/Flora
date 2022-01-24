@@ -59,3 +59,38 @@ function showForm(){
     
 
 }
+
+// menu-btn
+
+      let pixels = 500;
+      let menuBtn = document.querySelector(".menu-btn");
+      let menuList = document.querySelector(".menu-list");
+
+      const scrollContainer = () => {
+        return document.documentElement || document.body;
+      };
+
+      document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > pixels) {
+          menuBtn.classList.remove("hidden");
+        } 
+        else {
+          menuBtn.classList.add("hidden");
+          menuList.classList.add("hidden");
+         
+        }
+      });
+
+      window.onscroll = function(ev) {
+        if ((window.innerHeight + window.scrollY + 50) >= document.body.offsetHeight) {
+           menuBtn.style.bottom = "5em";
+           menuList.style.bottom = "8em";
+        }else{
+            menuBtn.style.bottom = "1.5em";
+            menuList.style.bottom = "6em";
+        }
+    };
+
+    menuBtn.addEventListener("click", ()=> {
+        menuList.classList.toggle("hidden");
+    });
