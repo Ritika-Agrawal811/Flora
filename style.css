@@ -893,7 +893,7 @@ footer {
 
   .carousel-container {
     width: 1600px;
-    height: 90vh;
+    height: 65vh;
     display: flex;
     align-items: end;
     padding-bottom: 2.5em;
@@ -917,6 +917,7 @@ footer {
     position: relative;
     filter: drop-shadow(0 1px 1px #a8a4a4);
     transition: all 1000ms ease-in;
+    bottom: 0;
   }
 
   /* hover */
