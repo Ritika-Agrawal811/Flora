@@ -896,7 +896,7 @@ footer {
     height: 65vh;
     display: flex;
     align-items: end;
-    padding-bottom: 2.5em;
+    padding-bottom: 0;
   }
 
   .carousel-item.active {
