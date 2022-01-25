@@ -14,4 +14,4 @@ ________________________________________________________________________________
  ## Screenshots
  Desktop | Mobile 
  ------------ | ------------- 
-<img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643070503/desktop-view_nwir8u.png"/> | <img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643070495/mobile-view_hdqcqz.png"/> 
+<img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643070503/desktop-view_nwir8u.png"/>  | <img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643070495/mobile-view_hdqcqz.png"/> 
