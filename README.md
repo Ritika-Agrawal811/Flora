@@ -1,4 +1,4 @@
-<img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643069512/flora-logo_dzrytg.png"/>
+<img src="https://res.cloudinary.com/djix6uusx/image/upload/v1643070091/flora-logo_fhfh1a.png/>
 _______________________________________________________________________________________________
 
  Flora is a responsive plants webpage built using HTML,CSS and teensy bit of JavaScript.
