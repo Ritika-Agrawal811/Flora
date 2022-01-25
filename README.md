@@ -1,2 +1,2 @@
-### Flora
+# Flora
 A responsive plants webpage.
