@@ -5,7 +5,7 @@ ________________________________________________________________________________
  
  Live link :- https://flora-tau.vercel.app/
  
- ###Features
- :seedling: Hover effects on plant cards, navigation links and buttons
- :seedling: Multi frame carousel with animation
- :seedling: A fixed menu button at bottom right of web page(desktop only) to move to different sections of page
+ ### Features
+ :seedling: Hover effects on plant cards, navigation links and buttons <br/>
+ :seedling: Multi frame carousel with animation <br/>
+ :seedling: A fixed menu button at bottom right of web page(desktop only) to move to different sections of page <br/>
